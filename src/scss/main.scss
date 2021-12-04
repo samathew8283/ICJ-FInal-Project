@@ -1,0 +1,66 @@
+// Custom variable overrides
+// See node_modules/bootstrap/scss/_variables.scss
+
+// $body-bg: black;
+// $body-color: white;
+// $link-hover-color: grey;
+// $font-family-sans-serif: "Helvetica Neue";
+
+/* bootstrap */
+// Option A: Include all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Option B: Include parts of Bootstrap
+// See https://getbootstrap.com/docs/4.1/getting-started/theming/#importing
+
+// Required
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/mixins"; 
+
+// Import partials
+@import "nav";
+
+h3 {
+  font-size: 1.5rem;
+  color: black !important;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1 {
+  font-size: 40px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: rgb(6, 61, 34); 
+  border-bottom: 5px rgb(6, 90, 49) solid; 
+  padding-bottom: 15px; 
+  padding-top: 15px; 
+  text-align: center;
+  
+}
+p {
+  font-size: 20px; 
+  font-weight: normal; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+img {
+  width: 480px; 
+  height: auto; 
+  margin-left: 0px; 
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border: black 3px solid;
+ }
+h2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+   font-weight:normal;
+   color:rgb(6, 61, 34)
+   
+ }  
+body {
+  background-color: rgb(226, 243, 234);
+}
+ 

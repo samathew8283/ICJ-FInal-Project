@@ -1,0 +1,23 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Shereena's Travel Log{% endblock %}
+
+{% block page_description %}The index search description for this page goes here.{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>Welcome to My Adventure Log!</h1>
+  <p>Whether it be alone or with family and friends, traveling is one of my favorite things to do. From Dubai to India, to Mexico to Canada, and everything in between, I have traveled to a lot of places. To share my experiences across the world, I have decided to make this website as a sort of travel log. I will cover all the places I visited, and I hope you enjoy traveling through me!</p>
+  <h2>My Travels</h2>
+  <p></p>
+  <div class="row">
+    {% for travellog in travellog.travellog %}
+      <div class="col">
+        <img src= " img/{{ travellog.slug }}.jpg" alt="" class="img-fluid">
+        <h3><a href="travellog/{{ travellog.slug }}.html">{{ travellog.name }}</a></h3>
+      </div>
+    {% endfor %}
+  </div> 
+
+</div>
+{% endblock %}

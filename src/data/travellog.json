@@ -1,0 +1,18 @@
+{
+    "travellog": [
+    {
+        "name": "Exploring Colorado!",
+        "slug": "mills-lake",
+        "slug2": "red-rocks",
+        "overview1": "For about 4 days in July, I went with a couple of friends to Colorado. Over those four days, we did a lot of things, from hiking in the Rocky Mountains, to trying to climb the Manitou Incline, to just enjoying the good weather that Colorado had to offer.",
+        "overview2": "Overall, the trip was greatly enjoyable, especially after a year and a half of limited outdoor time due to the pandemic. Although Covid regulations were still in place in Colorado, it was nice to enjoy the outdoors and have a little break from the Texas heat."
+    },
+    {
+        "name": "A Cruise to Mexico!",
+        "slug": "structures-mexico",
+        "slug2": "Chichen-Itza",
+        "overview1": "This trip was taken a while back, with a few other families. When we left, although Texas was gloomy and rainy, Mexico offered the perfect summer respite. Being my first cruise, everything was new and interesting, and the endless activities were good at keeping me busy and entertained.",
+        "overview2": "The cruise was for five days, three of which were spent on the ship itself. The two days that we were allowed to explore, we went to Chichen Itza, snorkeling in the ocean side, and enjoyed authentic cuisine."
+    }
+]
+}
